@@ -1,2 +1,20 @@
-<h1>{{ title }}</h1>
-<input type="text" [(ngModel)]="title">
+<header>
+  <div class="container">
+    <h1 class="logo"><a [href]="data.general.url">{{ data.general.titulo }}</a></h1>
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+  </div>
+</header>
+
+<app-home *ngIf="data.tipo == 'home'"></app-home>
+<app-single *ngIf="data.tipo == 'single'"></app-single>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 My Blog. All rights reserved.</p>
+</footer>

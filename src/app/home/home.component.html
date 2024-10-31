@@ -1,0 +1,14 @@
+<main class="container">
+  <section class="posts">
+    <article class="post" *ngFor="let articulo of data.articulos; index as i">
+      <h2><a [href]="articulo.url">{{ articulo.titulo }}</a></h2>
+      <p>{{ articulo.resumen }}</p>
+    </article>
+    <div class="pagination" *ngIf="data.paginado.total > 1">
+      <a [href]="data.general.url+'/page/'+(i + 1)" *ngFor="let page of [].constructor(data.paginado.total); index as i"
+        class="page-link {{ data.paginado.current == (i + 1) ? 'current' : '' }}">
+        {{ i + 1 }}
+      </a>
+    </div>
+  </section>
+</main>

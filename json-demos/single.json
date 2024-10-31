@@ -1,0 +1,14 @@
+{
+  "tipo": "single",
+  "general": {
+    "titulo": "Blog NgConf",
+    "url": "http://localhost:10019"
+  },
+  "articulo": {
+    "id": 1,
+    "titulo": "Articulo 1",
+    "resumen": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore officiis esse adipisci sed deserunt dolore cumque vel iure quia explicabo neque dolores delectus maxime provident repellat natus, sapiente porro voluptas?",
+    "contenido": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore officiis esse adipisci sed deserunt dolore cumque vel iure quia explicabo neque dolores delectus maxime provident repellat natus, sapiente porro voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore officiis esse adipisci sed deserunt dolore cumque vel iure quia explicabo neque dolores delectus maxime provident repellat natus, sapiente porro voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore officiis esse adipisci sed deserunt dolore cumque vel iure quia explicabo neque dolores delectus maxime provident repellat natus, sapiente porro voluptas?</p><p><img src='https://picsum.photos/seed/picsum/200/300' /></p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore officiis esse adipisci sed deserunt dolore cumque vel iure quia explicabo neque dolores delectus maxime provident repellat natus, sapiente porro voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore officiis esse adipisci sed deserunt dolore cumque vel iure quia explicabo neque dolores delectus maxime provident repellat natus, sapiente porro voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore officiis esse adipisci sed deserunt dolore cumque vel iure quia explicabo neque dolores delectus maxime provident repellat natus, sapiente porro voluptas?</p>",
+    "link": "http://localhost:10019/articulo-1"
+  }
+}
