@@ -4,6 +4,16 @@
     "titulo": "Blog NgConf",
     "url": "http://localhost:10019"
   },
+  "menu": [
+    {
+      "title": "Menu 1",
+      "url": "#"
+    },
+    {
+      "title": "Menu 2",
+      "url": "#"
+    }
+  ],
   "articulos": [
     {
       "id": 1,

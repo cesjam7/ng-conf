@@ -3,9 +3,7 @@
     <h1 class="logo"><a [href]="data.general.url">{{ data.general.titulo }}</a></h1>
     <nav class="menu">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li *ngFor="let menu of data.menu"><a href="{{ menu.url }}">{{ menu.title }}</a></li>
         </ul>
     </nav>
   </div>
